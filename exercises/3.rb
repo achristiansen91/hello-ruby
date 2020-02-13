@@ -15,3 +15,11 @@
 # Learn to read the documentation!
 # http://ruby-doc.org/core-2.5.1/Array.html
 
+my_list = ["milk", "eggs", "bacon","beer"]
+friends_list = ["beer","cookies", "apples"]
+combination = my_list + friends_list
+
+sorted_list = combination.sort
+sorted_list_no_duplicates = sorted_list.uniq
+
+puts sorted_list_no_duplicates
